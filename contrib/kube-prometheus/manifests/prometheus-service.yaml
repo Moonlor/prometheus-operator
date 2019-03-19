@@ -11,7 +11,7 @@ spec:
   - name: web
     port: 9090
     targetPort: web
-    nodePort: 32002
+    nodePort: 31091
     protocol: TCP
   selector:
     app: prometheus
